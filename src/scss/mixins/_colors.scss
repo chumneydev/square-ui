@@ -1,0 +1,25 @@
+// Mixin => create-color
+// Loops through a color map and creates a color class for each color
+
+// ? Test adding breakpoints to the color mixin, but not required
+
+@mixin create-color($colors, $classPrefix, $properties, $breakpoints: ()) {
+	@each $color, $shade in $colors {
+		// If the color is a map, loop through its' shades, else create a single color class
+		@if type-of($shade) == "map" {
+			@each $shadeName, $shadeValue in $shade {
+				@each $property in $properties {
+					.#{$classPrefix}-#{$color}-#{$shadeName} {
+						#{$property}: $shadeValue;
+					}
+				}
+			}
+		} @else {
+			@each $property in $properties {
+				.#{$classPrefix}-#{$color} {
+					#{$property}: $shade;
+				}
+			}
+		}
+	}
+}

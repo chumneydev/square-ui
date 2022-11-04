@@ -1,0 +1,8 @@
+@use "../base/default.colors" as *;
+@use "../mixins/colors" as colors;
+
+// Background Colors
+@include colors.create-color($colors, "bg", (background-color));
+
+// Text Colors
+@include colors.create-color($colors, "text", (color), "md");

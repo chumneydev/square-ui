@@ -1,0 +1,159 @@
+// Base colors
+
+$black: #000000;
+$white: #ffffff;
+$grey: #f5f5f5;
+$blue: #1e88e5;
+$red: #e53935;
+$green: #43a047;
+
+// Manufacturer colors
+$color-acura: #e82c2a;
+$color-audi: #cd1f35;
+$color-buick: #c9480c;
+$color-bmw: #1c69d3;
+$color-cadillac: #9e1834;
+$color-chevy: #cd9834;
+$color-chrysler: #063e77;
+$color-dodge: #d50000;
+$color-fiat: #b11636;
+$color-ford: #0276b3;
+$color-honda: #2086c1;
+$color-hyundai: #002d73;
+$color-infiniti: #201d26;
+$color-jeep: #ffba00;
+$color-kia: #c4172c;
+$color-lexus: #1a1a1a;
+$color-lincoln: #231f1f;
+$color-maserati: #0b2749;
+$color-mazda: #2b2b2b;
+$color-mini: #ac2430;
+$color-mercedes: #222222;
+$color-mitsubishi: #ff0022;
+$color-nissan: #c3002f;
+$color-ram: #880d00;
+$color-subaru: #0099ff;
+$color-toyota: #d71921;
+$color-volvo: #003057;
+$color-vw: #00b1eb;
+
+$colors: (
+	white: $white,
+	black: $black,
+	grey: $grey,
+	blue: $blue,
+	red: $red,
+	green: $green,
+	acura: (
+		500: $color-acura,
+		700: darken($color-acura, 20%),
+	),
+	audi: (
+		500: $color-audi,
+		700: darken($color-audi, 20%),
+	),
+	buick: (
+		500: $color-buick,
+		700: darken($color-buick, 20%),
+	),
+	bmw: (
+		500: $color-bmw,
+		700: darken($color-bmw, 20%),
+	),
+	cadillac: (
+		500: $color-cadillac,
+		700: darken($color-cadillac, 20%),
+	),
+	chevy: (
+		500: $color-chevy,
+		700: darken($color-chevy, 20%),
+	),
+	chrysler: (
+		500: $color-chrysler,
+		700: darken($color-chrysler, 20%),
+	),
+	dodge: (
+		500: $color-dodge,
+		700: darken($color-dodge, 20%),
+	),
+	fiat: (
+		500: $color-fiat,
+		700: darken($color-fiat, 20%),
+	),
+	ford: (
+		500: $color-ford,
+		700: darken($color-ford, 20%),
+	),
+	honda: (
+		500: $color-honda,
+		700: darken($color-honda, 20%),
+	),
+	hyundai: (
+		500: $color-hyundai,
+		700: darken($color-hyundai, 20%),
+	),
+	infiniti: (
+		500: $color-infiniti,
+		700: darken($color-infiniti, 20%),
+	),
+	jeep: (
+		500: $color-jeep,
+		700: darken($color-jeep, 20%),
+	),
+	kia: (
+		500: $color-kia,
+		700: darken($color-kia, 20%),
+	),
+	lexus: (
+		500: $color-lexus,
+		700: darken($color-lexus, 20%),
+	),
+	lincoln: (
+		500: $color-lincoln,
+		700: darken($color-lincoln, 20%),
+	),
+	maserati: (
+		500: $color-maserati,
+		700: darken($color-maserati, 20%),
+	),
+	mazda: (
+		500: $color-mazda,
+		700: darken($color-mazda, 20%),
+	),
+	mini: (
+		500: $color-mini,
+		700: darken($color-mini, 20%),
+	),
+	mercedes: (
+		500: $color-mercedes,
+		700: darken($color-mercedes, 20%),
+	),
+	mitsubishi: (
+		500: $color-mitsubishi,
+		700: darken($color-mitsubishi, 20%),
+	),
+	nissan: (
+		500: $color-nissan,
+		700: darken($color-nissan, 20%),
+	),
+	ram: (
+		500: $color-ram,
+		700: darken($color-ram, 20%),
+	),
+	subaru: (
+		500: $color-subaru,
+		700: darken($color-subaru, 20%),
+	),
+	toyota: (
+		500: $color-toyota,
+		700: darken($color-toyota, 20%),
+	),
+	volvo: (
+		500: $color-volvo,
+		700: darken($color-volvo, 20%),
+	),
+	vw: (
+		500: $color-vw,
+		700: darken($color-vw, 20%),
+	),
+);

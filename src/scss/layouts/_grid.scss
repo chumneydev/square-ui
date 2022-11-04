@@ -1,0 +1,9 @@
+@use "../base/default.grid" as *;
+@use "../mixins/layout" as grid;
+
+.grid {
+	display: grid;
+}
+
+// Grid Layout
+@include grid.grid-layout($grid-columns);

@@ -1,0 +1,12 @@
+// Mixin => breakpoint
+// Loops through a breakpoint map and creates a media query for each breakpoint
+
+@mixin breakpoint($breakpoints) {
+	@each $breakpoint, $value in $breakpoints {
+		@media (min-width: $value) {
+			.#{$breakpoint}\: {
+				@content;
+			}
+		}
+	}
+}

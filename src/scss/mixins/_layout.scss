@@ -1,0 +1,10 @@
+// Creates a grid layout with a fixed number of column;
+@mixin grid-layout($columns, $breakpoints: ()) {
+	// Create the grid layout
+
+	@each $column, $value in $columns {
+		.grid-col-#{$column} {
+			grid-template-columns: repeat(#{$value}, 1fr);
+		}
+	}
+}
